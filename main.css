@@ -1,0 +1,53 @@
+body{
+background-image: url("mainbg.jpg");
+ /* Full height */
+ 
+
+ /* Center and scale the image nicely */
+ /* background-position: center; */
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+#stop-watch-bg{
+    position: relative;
+    top: 170px;
+    right: -60px;
+    width: 600px;
+    height: 130px;
+    background-color: white;
+}
+
+#watch-num{
+    margin: 80px;
+    padding: auto;
+}
+
+#watch-num h1{
+font-size: 7rem;
+color: tomato;
+}
+
+#btn-play{
+    width: 10rem;
+    height: 10rem;
+    border-radius :50% ;
+    position: relative;
+    top: -60px;
+    right: -130px; 
+    
+}
+
+.fa-play {
+    color: tomato;
+}
+.fa-stop{
+    color: tomato;
+}
+.fa-pause{
+    color: tomato;
+}
+
+#togle{
+    display: inline;
+}
+button:focus { outline: none; }
